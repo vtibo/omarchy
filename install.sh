@@ -33,19 +33,22 @@ source $OMARCHY_INSTALL/preflight/migrations.sh
 # Configuration
 show_logo beams 240
 show_subtext "Let's install Omarchy! [1/5]"
-source $OMARCHY_INSTALL/config/identification.sh
-source $OMARCHY_INSTALL/config/config.sh
-source $OMARCHY_INSTALL/config/detect-keyboard-layout.sh
-source $OMARCHY_INSTALL/config/fix-fkeys.sh
-source $OMARCHY_INSTALL/config/network.sh
-source $OMARCHY_INSTALL/config/power.sh
-source $OMARCHY_INSTALL/config/timezones.sh
-source $OMARCHY_INSTALL/config/login.sh
-source $OMARCHY_INSTALL/config/nvidia.sh
+show_subtext "All is disable here"
+#source $OMARCHY_INSTALL/config/identification.sh
+#source $OMARCHY_INSTALL/config/config.sh
+#source $OMARCHY_INSTALL/config/detect-keyboard-layout.sh
+#source $OMARCHY_INSTALL/config/fix-fkeys.sh
+#source $OMARCHY_INSTALL/config/network.sh
+#source $OMARCHY_INSTALL/config/power.sh
+#source $OMARCHY_INSTALL/config/timezones.sh
+#source $OMARCHY_INSTALL/config/login.sh
+#source $OMARCHY_INSTALL/config/nvidia.sh
+
 
 # Development
 show_logo decrypt 920
 show_subtext "Installing terminal tools [2/5]"
+show_subtext "All is disable here"
 #source $OMARCHY_INSTALL/development/terminal.sh
 #source $OMARCHY_INSTALL/development/development.sh
 #source $OMARCHY_INSTALL/development/nvim.sh
